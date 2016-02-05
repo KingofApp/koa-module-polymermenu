@@ -14,12 +14,6 @@
   "libs": [
     {
       "bower": {
-        "polymer/polymer": "^1.0.0"
-      },
-      "src": "http://resources.kingofapp.com/bower_components/polymer/polymer.html"
-    },
-    {
-      "bower": {
         "PolymerElements/paper-drawer-panel": "^1.0.0"
       },
       "src": "http://resources.kingofapp.com/bower_components/paper-drawer-panel/paper-drawer-panel.html"
