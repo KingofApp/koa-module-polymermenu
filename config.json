@@ -42,6 +42,15 @@
   "files": ["modules/polymermenu/controller.js", "modules/polymermenu/styles.html"],
   "scope": {
     "path": "/menu",
+    "headerShown": true,
+    "headerBackgroundImage": "",
+    "headerBackgroundColor": "",
+    "headerReverse": false,
+    "headerTitle": "",
+    "headerTitleShown": true,
+    "headerLogo": "",
+    "headerLogoShown": true,
+    "headerAlignment": "left",
     "showicons": false
   },
   "config": [{
