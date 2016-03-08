@@ -39,7 +39,7 @@
     }
   ],
   "view": "modules/polymermenu/index.html",
-  "files": ["modules/polymermenu/controller.js", "modules/polymermenu/style.css"],
+  "files": ["modules/polymermenu/controller.js", "modules/polymermenu/styles.html"],
   "scope": {
     "path": "/menu",
     "showicons": false
