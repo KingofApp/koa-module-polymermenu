@@ -15,10 +15,10 @@
   },
   "requires": [],
   "canContain": true,
-  "view": "modules/koa-module-polymermenu/index.html",
+  "view": "modules/polymermenu/index.html",
   "files": [
-    "modules/koa-module-polymermenu/controller.js",
-    "modules/koa-module-polymermenu/styles.html"
+    "modules/polymermenu/controller.js",
+    "modules/polymermenu/styles.html"
   ],
   "libs": [
     {
