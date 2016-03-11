@@ -63,7 +63,9 @@
     "headerLogo": "",
     "headerLogoShown": true,
     "headerAlignment": "left",
-    "showicons": false
+    "showicons": false,
+    "toolbarTitle": true,
+    "toolbarLogo": ""
   },
   "config": [{
     "type": "checkbox",
