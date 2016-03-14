@@ -1,20 +1,49 @@
 {
   "name": "Polymer Menu",
   "identifier": "polymermenu",
-  "description": "Menú basado en los parámetros de Google. Perfecto para aplicaciones Android aunque compatible también para iOs y Windows Phone. Cargalo en tu App y nútrelo de contenidos.",
-  "descriptionShort" : "Menú basado en los parámetros de Google. ¡Llénalo de contenido!",
-  "documentation": "",
   "type": "A",
-  "icon": "menu",
   "version": "1.0",
   "author": "King of App",
+  "category": [
+    "menu"
+  ],
+  "platforms" : [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "price": 0,
+  "subscription": false,
+  "canContain": true,
+  "icon": "menu",
+  "description": {
+    "en-US" : "",
+    "es-ES" : "Menú basado en los parámetros de Google. Perfecto para aplicaciones Android aunque compatible también para iOs y Windows Phone. Cargalo en tu App y nútrelo de contenidos."
+  },
+  "descriptionShort": {
+    "en-US" : "",
+    "es-ES" : "Menú basado en los parámetros de Google. ¡Llénalo de contenido!"
+  },
+  "documentation": {
+    "en-US" : "",
+    "es-ES" : ""
+  },
+  "images" : {
+    "list" : "images/list.png",
+    "screenshots" : [
+      "images/screenshot01.png",
+      "images/screenshot02.png"
+    ],
+    "popover" : "images/popover.png",
+    "banner" : "images/banner.png",
+    "logo" : "images/logo.png"
+  },
   "showOn": {
     "menu": false,
     "market": true,
     "dragDrop": true
   },
   "requires": [],
-  "canContain": true,
   "view": "modules/polymermenu/index.html",
   "files": [
     "modules/polymermenu/controller.js",
