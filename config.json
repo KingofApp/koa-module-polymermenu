@@ -83,7 +83,7 @@
   ],
   "scope": {
     "path": "/polymermenu",
-    "headerShown": true,
+    "headerShown": false,
     "headerBackgroundImage": "",
     "headerBackgroundColor": "",
     "headerReverse": false,
