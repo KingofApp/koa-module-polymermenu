@@ -10,6 +10,14 @@
   function loadFunction($q, $scope, structureService, $location) {
     //Register upper level modules
     structureService.registerModule($location, $scope, 'polymermenu');
+    $scope.showBack = false;
+
+    if(structureService.getMenuItems().indexOf($location.$$path) === -1){
+      $scope.showBack = true;
+    }
+    $scope.goBack = function() {
+      window.history.back()
+    };
 
     $q.all({
       menu: getMenu()
