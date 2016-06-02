@@ -1,4 +1,13 @@
 <style is="custom-style">
+
+  .polymermenu #content{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .polymermenu #content > .template{
+    height:100%;
+  }
   .polymermenu #drawer paper-menu a {
     text-decoration: none;
     color: inherit;
@@ -19,7 +28,6 @@
 
   .polymermenu .panel #header {
     @apply(--layout-vertical);
-
     background-color: #FFFFFF;
     padding: 1em;
   }
@@ -42,5 +50,11 @@
 
   .polymermenu .panel #header .logo img {
     max-height: 60px;
+  }
+
+  .polymermenu paper-drawer-panel {
+    --paper-drawer-panel-drawer-container: {
+      background-color: var(--primary-background-color);
+    };
   }
 </style>
