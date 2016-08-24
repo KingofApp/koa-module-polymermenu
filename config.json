@@ -134,11 +134,15 @@
       "pattern": "(https?://)([/\\w.()-]*).*"
     }
   }, {
-    "key": "headerBackgroundColor",
-    "type": "input",
-    "templateOptions": {
-      "label": "Header color",
-      "description": "The header background color"
+    "key" : "headerBackgroundColor",
+    "type" : "colorpicker",
+    "templateOptions" : {
+      "label" : "Header color",
+      "description" : "The header background color",
+      "colorPickerFormat" : "'rgb'",
+      "colorPickerAlpha" : true,
+      "colorPickerPos" : "'top left'",
+      "colorPickerSwatchBootstrap" : false
     }
   }, {
     "key": "headerReverse",
