@@ -30,12 +30,15 @@
       var index = 0;
       angular.forEach($scope.polymermenu.modulescope.menuItems, function(value, key) {
         structureService.getModule(value.path).then(function(module) {
+          var color = (value.bgColor) ? '#' + value.bgColor.replace('#','') : '';
+          var currentClass = ($location.path() === value.path) ? 'selected' : '';
           menu.push({
             text: module.name,
             icon: getIcon(module.icon),
             url: "#" + value.path,
             backgroundImage: value.bgImage,
-            backgroundColor: value.bgColor
+            backgroundColor: color,
+            class: currentClass
           });
           index++;
         });
