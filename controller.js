@@ -31,7 +31,7 @@
       angular.forEach($scope.polymermenu.modulescope.menuItems, function(value, key) {
         structureService.getModule(value.path).then(function(module) {
           var color = (value.bgColor) ? '#' + value.bgColor.replace('#','') : '';
-          var currentClass = ($location.path() === value.path) ? 'selected' : '';
+          var currentClass = ($location.path() === value.path) ? 'selectedpmenu' : '';
           menu.push({
             text: module.name,
             icon: getIcon(module.icon),
