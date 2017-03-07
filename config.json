@@ -2,7 +2,7 @@
   "name": "Polymer Menu",
   "identifier": "polymermenu",
   "type": "A",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "author": "King of App",
   "category": [
     "menu"
@@ -17,12 +17,12 @@
   "canContain": true,
   "icon": "menu",
   "description": {
-    "en-US": "",
-    "es-ES": "Menú basado en los parámetros de Google. Perfecto para aplicaciones Android aunque compatible también para iOs y Windows Phone. Cargalo en tu App y nútrelo de contenidos."
+    "en-US": "Design your own Android app with this menu based on Google parameters and ideal to visualize your ideas. Activate it in your app and fill it with content. If you want to use it for another operating system, it is also compatible with iOs and Windows Phone.",
+    "es-ES": "Diseña tu propia aplicación de Android con este menú basado en los parámetros de Google e ideal para visualizar tus ideas. Cárgalo en tu App y llenalo de contenido. Si lo deseas para otro sistema operativo, es también compatible con iOs y Windows Phone. "
   },
   "descriptionShort": {
-    "en-US": "",
-    "es-ES": "Menú basado en los parámetros de Google. ¡Llénalo de contenido!"
+    "en-US": "Diseña tu propia Android App con este menú!",
+    "es-ES": "Design your very own Android App using this menu!"
   },
   "documentation": {
     "es-ES": "modules/polymermenu/documentation/es_ES.md",
