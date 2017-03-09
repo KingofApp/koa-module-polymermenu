@@ -21,8 +21,8 @@
     "es-ES": "Diseña tu propia aplicación de Android con este menú basado en los parámetros de Google e ideal para visualizar tus ideas. Cárgalo en tu App y llenalo de contenido. Si lo deseas para otro sistema operativo, es también compatible con iOs y Windows Phone. "
   },
   "descriptionShort": {
-    "en-US": "Diseña tu propia Android App con este menú!",
-    "es-ES": "Design your very own Android App using this menu!"
+    "en-US": "Design your very own Android App using this menu!",
+    "es-ES": "Diseña tu propia Android App con este menú!"
   },
   "documentation": {
     "es-ES": "modules/polymermenu/documentation/es_ES.md",
