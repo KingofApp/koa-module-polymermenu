@@ -1,6 +1,6 @@
 {
   "name": "koapp-module-polymermenu",
-  "version": "1.0.12",
+  "version": "1.0.16",
   "description": "El RSS de cualquier página web disponible en la App.",
   "directories": {
     "test": "test"
