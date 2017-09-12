@@ -70,13 +70,13 @@
         },
         {
             "bower": {
-                "PolymerElements/paper-menu": "1.2.2"
+                "PolymerElements/paper-menu": "1.3.0"
             },
             "src": "bower_components/paper-menu/paper-menu.html"
         },
         {
             "bower": {
-                "PolymerElements/paper-item": "1.3.0"
+                "PolymerElements/paper-item": "1.2.2"
             },
             "src": "bower_components/paper-item/paper-item.html"
         }
