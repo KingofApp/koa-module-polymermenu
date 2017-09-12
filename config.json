@@ -52,31 +52,31 @@
     "libs": [
         {
             "bower": {
-                "PolymerElements/iron-flex-layout": "^1.3.0"
+                "PolymerElements/iron-flex-layout": "1.3.7"
             },
             "src": "bower_components/iron-flex-layout/iron-flex-layout.html"
         },
         {
             "bower": {
-                "PolymerElements/paper-drawer-panel": "^1.0.0"
+                "PolymerElements/paper-drawer-panel": "1.0.11"
             },
             "src": "bower_components/paper-drawer-panel/paper-drawer-panel.html"
         },
         {
             "bower": {
-                "PolymerElements/paper-header-panel": "^1.0.0"
+                "PolymerElements/paper-header-panel": "1.1.7"
             },
             "src": "bower_components/paper-header-panel/paper-header-panel.html"
         },
         {
             "bower": {
-                "PolymerElements/paper-menu": "^1.0.0"
+                "PolymerElements/paper-menu": "1.2.2"
             },
             "src": "bower_components/paper-menu/paper-menu.html"
         },
         {
             "bower": {
-                "PolymerElements/paper-item": "^1.0.0"
+                "PolymerElements/paper-item": "1.3.0"
             },
             "src": "bower_components/paper-item/paper-item.html"
         }
