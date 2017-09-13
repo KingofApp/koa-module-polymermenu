@@ -3,11 +3,11 @@
 
   angular
     .module('polymermenu', [])
-    .controller('PolymermenuController', loadFunction);
+    .controller('PolymermenuController', PolymermenuController);
 
-  loadFunction.$inject = ['$q', '$rootScope', '$scope', 'structureService', '$location'];
+  PolymermenuController.$inject = ['$q', '$rootScope', '$scope', 'structureService', '$location'];
 
-  function loadFunction($q, $rootScope, $scope, structureService, $location) {
+  function PolymermenuController($q, $rootScope, $scope, structureService, $location) {
     //Register upper level modules
     structureService.registerModule($location, $scope, 'polymermenu');
     $scope.showBack = false;
