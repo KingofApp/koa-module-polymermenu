@@ -3,5 +3,5 @@ Menú basado en los parámetros de Google. Perfecto para aplicaciones Android au
 ### Details:
 
 - Author: King of app
-- Version: 1.0.20
+- Version: 1.1.0
 - Homepage:
